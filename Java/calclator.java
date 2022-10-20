@@ -68,8 +68,16 @@ public class Main {
             return;
         }
 
-        output = Integer.parseInt(numbersInCalculation[0]) + Integer.parseInt(numbersInCalculation[1]);
-        System.out.println(numbersInCalculation[0]+operator+numbersInCalculation[1]+"="+output);
+        if (Objects.equals(operator , "+")) {
+            output = Integer.parseInt(numbersInCalculation[0]) + Integer.parseInt(numbersInCalculation[1]);
+        } else if (Objects.equals(operator , "-")) {
+            output = Integer.parseInt(numbersInCalculation[0]) - Integer.parseInt(numbersInCalculation[1]);
+        } else if (Objects.equals(operator , "*")) {
+            output = Integer.parseInt(numbersInCalculation[0]) * Integer.parseInt(numbersInCalculation[1]);
+        } else if (Objects.equals(operator , "/")) {
+            output = Integer.parseInt(numbersInCalculation[0]) / Integer.parseInt(numbersInCalculation[1]);
+        }
 
+        System.out.println(numbersInCalculation[0]+operator+numbersInCalculation[1]+"="+output);
     }
 }
