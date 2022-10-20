@@ -1,5 +1,5 @@
 # Random Garbage
-Welcome to theGarbageHeap I dont know what code is in here so go digging. You might find a hidden jem.
+Welcome to Random Garbage I dont know what code is in here so go digging. You might find a hidden jem.
 
 This repo is for all of my random projects that dont deserve there own repo. And I dont care about.
 
